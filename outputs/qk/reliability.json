@@ -1,0 +1,182 @@
+{
+  "clean": {
+    "quantum_kernel": 0.94,
+    "matched_rbf": 0.9323377492305633,
+    "reference": 0.8797397657892102
+  },
+  "gaussian_noise": [
+    {
+      "sigma": 0,
+      "quantum_kernel": {
+        "mean": 0.94,
+        "sd": 0.0
+      },
+      "matched_rbf": {
+        "mean": 0.9323377492305633,
+        "sd": 0.0
+      },
+      "reference": {
+        "mean": 0.8797397657892102,
+        "sd": 0.0
+      }
+    },
+    {
+      "sigma": 0.05,
+      "quantum_kernel": {
+        "mean": 0.8960895194761573,
+        "sd": 0.019388820075061798
+      },
+      "matched_rbf": {
+        "mean": 0.8868990295958609,
+        "sd": 0.01854867097156218
+      },
+      "reference": {
+        "mean": 0.8796614369525324,
+        "sd": 0.0074872243293014765
+      }
+    },
+    {
+      "sigma": 0.1,
+      "quantum_kernel": {
+        "mean": 0.8571523058328865,
+        "sd": 0.024823000797030637
+      },
+      "matched_rbf": {
+        "mean": 0.8672734964520185,
+        "sd": 0.023300500687328196
+      },
+      "reference": {
+        "mean": 0.8861417926689537,
+        "sd": 0.015489996998310896
+      }
+    },
+    {
+      "sigma": 0.2,
+      "quantum_kernel": {
+        "mean": 0.7516568803430668,
+        "sd": 0.016035525071032668
+      },
+      "matched_rbf": {
+        "mean": 0.7692798827256659,
+        "sd": 0.038067235881612795
+      },
+      "reference": {
+        "mean": 0.8209862161970349,
+        "sd": 0.010789374605963358
+      }
+    },
+    {
+      "sigma": 0.3,
+      "quantum_kernel": {
+        "mean": 0.6379736754583536,
+        "sd": 0.025440299740741617
+      },
+      "matched_rbf": {
+        "mean": 0.6286646952989743,
+        "sd": 0.025935483170008718
+      },
+      "reference": {
+        "mean": 0.795629029888229,
+        "sd": 0.032034573080649435
+      }
+    },
+    {
+      "sigma": 0.5,
+      "quantum_kernel": {
+        "mean": 0.5111274505164334,
+        "sd": 0.03523237370174839
+      },
+      "matched_rbf": {
+        "mean": 0.4137902523726373,
+        "sd": 0.026139225104914766
+      },
+      "reference": {
+        "mean": 0.6826685755168065,
+        "sd": 0.016546407623707564
+      }
+    }
+  ],
+  "feature_drop": [
+    {
+      "feature": "B1",
+      "quantum_kernel": -0.0401680672268907,
+      "matched_rbf": -0.026631945675297364,
+      "reference": -0.006597994365251658
+    },
+    {
+      "feature": "B2",
+      "quantum_kernel": -0.08201946403498528,
+      "matched_rbf": -0.06735458424739837,
+      "reference": 0.00010283791893961336
+    },
+    {
+      "feature": "B3",
+      "quantum_kernel": -0.04891156270694219,
+      "matched_rbf": -0.02675866085577605,
+      "reference": 0.00018689354338963238
+    },
+    {
+      "feature": "B4",
+      "quantum_kernel": -0.09927356617844296,
+      "matched_rbf": -0.10522451159100987,
+      "reference": -3.3216502828947725e-05
+    },
+    {
+      "feature": "B5",
+      "quantum_kernel": -0.30940576940576936,
+      "matched_rbf": -0.18310490659449796,
+      "reference": -0.0824824605439265
+    },
+    {
+      "feature": "B6",
+      "quantum_kernel": -0.04602907829798575,
+      "matched_rbf": -0.02567108256389672,
+      "reference": -0.21392574620416516
+    },
+    {
+      "feature": "B7",
+      "quantum_kernel": -0.0529755124600485,
+      "matched_rbf": -0.03853278191658083,
+      "reference": 0.013539518900343661
+    },
+    {
+      "feature": "B8",
+      "quantum_kernel": -0.16119191237995334,
+      "matched_rbf": -0.1305187888113052,
+      "reference": -0.06107615452739812
+    },
+    {
+      "feature": "B8A",
+      "quantum_kernel": -0.09947534255439938,
+      "matched_rbf": -0.10425488263136018,
+      "reference": -0.04907392019862433
+    },
+    {
+      "feature": "B9",
+      "quantum_kernel": -0.033626784046952074,
+      "matched_rbf": -0.1130050201040197,
+      "reference": 9.750245141937341e-05
+    },
+    {
+      "feature": "B11",
+      "quantum_kernel": -0.16471889099282322,
+      "matched_rbf": -0.12916279031826694,
+      "reference": -0.014766964026488916
+    },
+    {
+      "feature": "B12",
+      "quantum_kernel": -0.43687038108090737,
+      "matched_rbf": -0.34275304153728914,
+      "reference": -0.29575515685400844
+    },
+    {
+      "feature": "NDVI",
+      "quantum_kernel": -0.2895660108730903,
+      "matched_rbf": -0.44370138559419975,
+      "reference": -0.30764810426584377
+    }
+  ],
+  "draws": 5,
+  "noise_scale": "sigma x training standard deviation of each raw feature",
+  "drop_rule": "one feature replaced by its training mean"
+}

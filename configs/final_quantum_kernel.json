@@ -1,0 +1,9 @@
+{
+  "model": "QuantumKernelSVM",
+  "a": 0.2,
+  "gamma": 0.01,
+  "reps": 1,
+  "C": 100,
+  "encoder": "StandardScaler -> PCA(8) -> StandardScaler, fit on training rows",
+  "qubits": 8
+}

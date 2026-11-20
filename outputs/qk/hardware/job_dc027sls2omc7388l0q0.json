@@ -1,0 +1,28 @@
+{
+  "job_id": "dc027sls2omc7388l0q0",
+  "backend": "ibm_kingston",
+  "fields": [
+    30,
+    2,
+    12,
+    32,
+    3,
+    13,
+    34
+  ],
+  "shots": 500,
+  "sample_ids": [
+    "r2_adbef89287239bee",
+    "r2_d2eea33889a56ff4",
+    "r2_113bd4169586fba3",
+    "r2_64185e1a5b915bc2",
+    "r2_7e175023e4dda69b",
+    "r2_894d67434594d947",
+    "r2_0c0eb4e1f3a8bca7"
+  ],
+  "twirling": true,
+  "circuits": 1337,
+  "support_vectors": 190,
+  "isa_depth_max": 124,
+  "isa_two_qubit_max": 28
+}

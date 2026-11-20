@@ -1,0 +1,41 @@
+{
+  "jobs": [
+    {
+      "job_id": "dc01ihanj2vs73dda82g",
+      "backend": "ibm_kingston",
+      "fields": [
+        0,
+        1,
+        28
+      ],
+      "shots": 1000,
+      "circuits": 573,
+      "usage_seconds": 176
+    },
+    {
+      "job_id": "dc027sls2omc7388l0q0",
+      "backend": "ibm_kingston",
+      "fields": [
+        30,
+        2,
+        12,
+        32,
+        3,
+        13,
+        34
+      ],
+      "shots": 500,
+      "circuits": 1337,
+      "usage_seconds": 205
+    }
+  ],
+  "fields": 10,
+  "device_seconds": 381,
+  "correct": {
+    "exact": 10,
+    "ideal_shots": 7,
+    "hardware_raw": 5,
+    "hardware_corrected": 5
+  },
+  "agreement_hardware_vs_exact": 5
+}

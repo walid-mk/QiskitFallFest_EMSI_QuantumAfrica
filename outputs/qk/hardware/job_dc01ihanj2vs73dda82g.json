@@ -1,0 +1,20 @@
+{
+  "job_id": "dc01ihanj2vs73dda82g",
+  "backend": "ibm_kingston",
+  "fields": [
+    0,
+    1,
+    28
+  ],
+  "shots": 1000,
+  "sample_ids": [
+    "r2_4769de2441c6188e",
+    "r2_49c4f17d7d070fa9",
+    "r2_3e9e2987f8c1dc10"
+  ],
+  "twirling": true,
+  "circuits": 573,
+  "support_vectors": 190,
+  "isa_depth_max": 125,
+  "isa_two_qubit_max": 28
+}

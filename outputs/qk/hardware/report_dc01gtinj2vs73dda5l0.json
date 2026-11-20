@@ -1,0 +1,61 @@
+{
+  "job_id": "dc01gtinj2vs73dda5l0",
+  "backend": "ibm_kingston",
+  "fields": [
+    0
+  ],
+  "shots": 1000,
+  "sample_ids": [
+    "r2_4769de2441c6188e"
+  ],
+  "circuits": 191,
+  "support_vectors": 190,
+  "isa_depth_max": 107,
+  "isa_two_qubit_max": 26,
+  "true_labels": [
+    "wheat"
+  ],
+  "predicted_exact": [
+    "wheat"
+  ],
+  "predicted_ideal_shots": [
+    "wheat"
+  ],
+  "predicted_hardware_raw": [
+    "maize"
+  ],
+  "predicted_hardware_corrected": [
+    "maize"
+  ],
+  "self_pair_fidelity": [
+    0.949
+  ],
+  "shrink_factor": [
+    0.9488
+  ],
+  "kernel_mae": {
+    "ideal_shots": 0.018289060352004442,
+    "hardware_raw": 0.18081965726449364,
+    "hardware_corrected": 0.1546213258541803
+  },
+  "kernel_corr": {
+    "hardware_raw": 0.9869790563123316,
+    "ideal_shots": 0.9992373693310336
+  },
+  "decision_exact": [
+    [
+      0.7565643659763495,
+      -0.26895372336221735,
+      2.291061873842397
+    ]
+  ],
+  "decision_hardware_corrected": [
+    [
+      -0.2713234745248477,
+      2.315663802790105,
+      0.6896720264529541
+    ]
+  ],
+  "usage_seconds": 53,
+  "scope": "Inference on a few fixed validation fields with a locally trained model; not an accuracy estimate."
+}

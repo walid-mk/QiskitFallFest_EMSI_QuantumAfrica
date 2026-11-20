@@ -1,0 +1,2 @@
+# Checksummed release files: never convert line endings (Windows core.autocrlf=true breaks data/manifest.json hashes)
+data/** -text
